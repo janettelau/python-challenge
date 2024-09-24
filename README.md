@@ -15,6 +15,8 @@ The Python script analyzes and calculates the following:
 - greatest_increase: The greatest increase in profits (date and amount) over the entire period
 - greatest_decrease: The greatest decrease in profits (date and amount) over the entire period
 
+The output file "budget_analysis.txt" is located in the "analysis" folder.
+
 ### PyPoll
 The CSV file in the "Resources" folder is a set of poll data with three columns, "Voter ID", "County", and "Candidate".
 
@@ -24,3 +26,5 @@ The Python script analyzes then, calculates and generates the following:
 - vote_percentage: The percentage of votes for each candidate
 - no_of_votes: The total number of votes for each candidate
 - winning_candidate: The winner of the election
+
+The output file "election_analysis.txt" is located in the "analysis" folder.
