@@ -4,8 +4,8 @@ Using Python scripts to analyze financial records and modernize the vote-countin
 ## Description
 This project is divided into two sections – PyBank and PyPoll.
 
-### PyBank
-The CSV file in the "Resources" folder is a financial dataset with two columns, "Date" and "Profit/Losses".
+### [PyBank](PyBank)
+The .csv file in the "Resources" folder is a financial dataset with two columns, "Date" and "Profit/Losses".
 
 The Python script analyzes and calculates the following:
 - total_months: The total number of months in the dataset
@@ -17,8 +17,8 @@ The Python script analyzes and calculates the following:
 
 The output file "budget_analysis.txt" is located in the "analysis" folder.
 
-### PyPoll
-The CSV file in the "Resources" folder is a set of poll data with three columns, "Voter ID", "County", and "Candidate".
+### [PyPoll](PyPoll)
+The .csv file in the "Resources" folder is a set of poll data with three columns, "Voter ID", "County", and "Candidate".
 
 The Python script analyzes then, calculates and generates the following:
 - total_votes: The total number of votes
